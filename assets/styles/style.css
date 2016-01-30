@@ -1,0 +1,218 @@
+/*
+Theme Name: Wordo Wordpress
+Theme URI: http://wordo.co
+Author: ChiTML
+Author URI: http://chitml.com/
+Description: 2013 Wordo Wordpress theme
+Version: 1.0
+*/
+body {
+	font-family: Roboto, Helvetica Neue, Helvetica, Arial;
+	font-size: 30px;
+	width: 500px;
+	margin: 0 auto;
+	font-weight: 200;
+	margin-top: 10px;
+}
+.vraagteken {
+		position: absolute;
+		right: 20px;
+		bottom: 20px;
+		
+	}
+	
+	.vraagteken a {
+		color: black;
+		font-size: 20px;
+		text-decoration: none;
+		opacity: 0.4;
+		padding: 20px;
+		font-weight: 500;
+	}
+	
+	.vraagteken a:hover {
+		opacity: 1;
+	}
+#menutopright {
+	color: red;
+	float: right;
+	text-align: right;
+}
+
+#menutopright a {
+	text-decoration: none;
+	display: block;
+	right: 90px;
+	top: 25px;
+	font-size: 18px;
+	color: #d4d4d4;
+}
+
+#menutopright a:hover {
+	color: black;
+}
+
+
+.mywl-link {
+	display: block;
+	float: right;
+	font-size: 70px;
+	color: #d4d4d4;
+	position: relative;
+	left: 115px;
+	margin-top:-15px;
+}
+.mywl-link.favorited{
+	color:red;
+}
+
+.mywl-link:hover {
+	color: red;
+}
+
+.logo {
+	float: left;
+	color: #333;
+	text-align: center;
+	padding: 5px;
+	width: 75px;
+	height: 79px;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 90px;
+	text-indent: 25px;
+}
+
+.subtitle {
+font-size: 25px;
+position: relative;
+top: -41px;
+left: 125px;
+color: #d4d4d4;
+width: 300px;
+height: 50px;
+line-height: 50px;
+}
+
+
+.logo:hover {
+	opacity: 0.7;
+}
+
+.logo:hover .subtitle {
+	color: black;
+}
+
+::selection {
+	background-color: black;
+	color: white;
+}
+
+
+.search {
+	width: 500px;
+	height: 80px;
+	margin-top: 50px;
+	outline-width: 0;
+	border: 1px #d4d4d4 dashed;
+	font-size: 40px;
+	text-indent: 30px;
+	font-family: Roboto;
+	font-weight: 500;
+	color: #333;
+}
+
+#result{
+	margin-left:40px;
+	opacity:0;
+}
+
+#result .a {
+	text-decoration:none;
+	color: #666;
+	border-bottom: 1px dashed white;
+}
+
+#result .a:hover {
+	border-bottom: 1px dashed #666;
+}
+#result .a:visited{
+	color: #666;
+}
+
+#result .a:visited:hover{
+	color: #4cee98;
+}
+#log{
+	display:none;
+}
+input[placeholder], [placeholder], *[placeholder] {
+   color: #black !important;
+
+}
+
+::-webkit-input-placeholder {  
+	color: #d4d4d4;
+	font-family: Roboto;
+}
+div.a{
+	display:inline;
+	cursor:pointer;
+}
+
+
+.deftypewrapper{
+    position: absolute;
+    width: 100px;
+	
+	margin: 10px 0 0 -129px;
+}
+.deftype {
+	background-color: #FAFAFA;
+	color: #999;
+	font-size: 14px;
+	text-shadow: 1px 1px white;
+	padding: 5px;
+	font-family: Courier New;
+	float:right;
+	text-align:right;
+}
+.definition {
+	color: #666;
+	margin-top: 30px;
+	margin-left: -9px;
+}
+.deftype:hover {
+	background: black;
+	color: white;
+	text-shadow: none;
+	cursor: help;
+}
+#fbconnectlogin{
+	float:right;
+	padding:24px;
+	/*display:none;/*temporary*/
+}
+#logoutbutton{
+	float:right;
+}
+.sfdpng{
+	position: relative;
+	right: 220px;
+	top: 110px;
+	opacity: 0.3;
+}
+.mywl-link:hover{cursor:pointer;}
+.mywl-hide { display: none; }
+.mywl-img { padding-left: 13px;
+    padding-top: 41px;
+    position: absolute;}
+#loginpage, #profilepage{
+	top:140px;
+	position:absolute;
+}
+#normalpage{
+	top:140px;
+	position:absolute;
+	max-width:50%;
+}
